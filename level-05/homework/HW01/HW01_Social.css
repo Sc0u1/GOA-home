@@ -1,0 +1,99 @@
+body{
+  background-color: rgb(46, 42, 42);
+  color: rgb(255, 255, 255);
+}
+
+.p1{
+  color: rgb(61, 230, 75);
+  font-size:xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic-1{
+  width: 1700px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+.container-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  width: 150px;
+  height: 30px;
+  margin-top: 60px;
+  background-color: rgb(122, 122, 122);
+  border: none;
+  border-radius: 4px;
+  font-size: medium;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.Button-FaceBook{
+  background-color: rgb(45, 135, 253);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.5s;
+  margin-left:20;
+  margin-right:20 ;
+}
+.Button-Linkedin{
+    background-color: rgb(29, 51, 172);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.5s;
+  margin-left:20;
+  margin-right:20 ;
+}
+.Button-Youtube{
+    background-color: rgb(177, 22, 22);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.5s;
+  margin-left:20;
+  margin-right:20 ;
+}
+.Button-Discord{
+    background-color: rgb(117, 63, 167);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.5s;
+  margin-left:20;
+  margin-right:20 ;
+}
+
+.Button-FaceBook:hover{
+  background-color: rgb(177, 179, 180);
+}
+.Button-Linkedin:hover{
+  background-color: rgb(177, 179, 180);
+}
+.Button-Youtube:hover{
+  background-color: rgb(177, 179, 180);
+}
+.Button-Discord:hover{
+  background-color: rgb(177, 179, 180);
+}
