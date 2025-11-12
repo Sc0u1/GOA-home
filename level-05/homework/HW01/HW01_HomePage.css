@@ -1,0 +1,58 @@
+body{
+  background-color: rgb(46, 42, 42);
+  color: black;
+}
+
+.WelcomeMessage{
+  color: rgb(23, 172, 36);
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  font-size: 36px;
+  margin-bottom: auto;
+}
+
+.p1{
+  color: aliceblue;
+  font-size: large;
+  padding: 15px 0px 40px 0px;
+  align-self: center;
+}
+
+.container_1{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top:20px;
+  margin-left: 620px;
+  
+} 
+
+.goa-info{
+  color: aliceblue;
+  padding: auto;
+  font-size: larger;
+}
+
+.goa-logo{
+  width: 600px;
+  height: 300px;
+}
+
+.button{
+  width: 150px;
+  height: 30px;
+  margin-top: 60px;
+  background-color: rgb(122, 122, 122);
+  border: none;
+  border-radius: 4px;
+  font-size: medium;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-left: 40px;
+
+}
+
+.button:hover{
+  background-color: rgb(160, 159, 159);
+}
