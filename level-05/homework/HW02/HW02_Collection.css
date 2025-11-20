@@ -1,6 +1,7 @@
 body{
-  background-color: aliceblue;
-  color: black;
+  background-color: rgb(230, 230, 230);
+  color: rgb(255, 255, 255);
+  background: linear-gradient(30deg,rgb(42, 42, 49),rgb(58, 58, 59));
 }
 
 nav{
@@ -17,23 +18,31 @@ nav{
   
 }
 
+nav p{
+  color: rgb(241, 84, 56);
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  justify-items: auto;
+}
+
 
 .logo img,
 .logo svg{
   width: 10%;
   height: 10%;
-  object-fit: contain;
-  display: block;
+  display: flex;
 }
 
-.nav-links{
+nav .nav-links{
   display: flex;
-  align-items: center;
+  align-items:center;
   flex-direction: row;
   gap: 50px;
   padding-left: 40px;
   list-style:none;
 }
+
 
 .nav-links a{
   text-decoration: none;
@@ -47,26 +56,54 @@ nav{
   
 }
 
+
+
+.container img{
+  max-width: 180px ;
+  height: 180px;
+  display: block;
+  
+}
+
+
 .container{
   display: flex;
-  gap: 20px;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 300px;
+  margin-top: 100px;
 }
 
-.card {
-    background: white;
-    width: 250px;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    text-align: center;
-    transition: 0.3s;
+.container .price{
+  color: brown;
+  font-size: 18px;
+  font-weight: 700;
 }
 
-.card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
+
+.card{
+  background-color: rgb(112, 107, 107);
+  border-radius: 14px;
+  display: block;
+  align-items: center;
+  padding: 50px;
+}
+
+.button1{
+  background-color: rgb(30, 97, 197);
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  color: aliceblue;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: rgb(30, 97, 197);
+  cursor: pointer;
+
+}
+
+.button1:hover {
+  color: rgb(173, 173, 173);
+  background-color: rgb(80, 81, 83);
+  border-color: rgb(80, 81, 83);
 }
