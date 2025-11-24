@@ -107,3 +107,10 @@ nav .nav-links{
   background-color: rgb(80, 81, 83);
   border-color: rgb(80, 81, 83);
 }
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap:12px;
+}
