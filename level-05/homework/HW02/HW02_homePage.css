@@ -17,6 +17,14 @@ nav{
   
 }
 
+nav {
+  color: rgb(241, 84, 56);
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  justify-items: auto;
+}
+
 
 .logo img,
 .logo svg{
@@ -46,4 +54,21 @@ nav{
 .nav-links a:hover {
   color:rgb(46, 46, 46);
   
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap:12px;
+}
+
+/*-----------------------------------------*/
+
+.nav2{
+  background-color: aqua;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
 }

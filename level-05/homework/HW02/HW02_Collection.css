@@ -1,8 +1,9 @@
 body{
-  background-color: rgb(230, 230, 230);
-  color: rgb(255, 255, 255);
-  background: linear-gradient(30deg,rgb(42, 42, 49),rgb(58, 58, 59));
-}
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  /*background: linear-gradient(30deg,rgb(42, 42, 49),rgb(58, 58, 59));
+*/
+  }
 
 nav{
   display: flex;
@@ -18,7 +19,7 @@ nav{
   
 }
 
-nav p{
+nav {
   color: rgb(241, 84, 56);
   font-size: large;
   display: flex;
@@ -82,7 +83,7 @@ nav .nav-links{
 
 
 .card{
-  background-color: rgb(112, 107, 107);
+  background-color: rgb(218, 215, 215);
   border-radius: 14px;
   display: block;
   align-items: center;
