@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(202, 202, 202);
+  background-color: rgb(221, 221, 221);
   color: black;
 }
 
@@ -52,9 +52,13 @@ img{
   margin-top: 50px;
 }
 
-.paragraph{
-  justify-content: center;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
+.container_3{
+  width: 500px;
+  height: 500px;
+}
+
+.container_3 div{
+  width: 60px;
+  height: 60px;
+  background-color: aliceblue;
 }
