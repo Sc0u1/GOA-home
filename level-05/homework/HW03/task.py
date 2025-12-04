@@ -28,6 +28,6 @@ age = current_year - birth_year
 print("======================")
 print("name: " + name)
 print("last name: " + last_name)
-print("age: " + age)
+print("age: " + str(age))
 print("birth: " + birth_day + "/" + birth_month + "/" + str(birth_year))
 print("======================")
