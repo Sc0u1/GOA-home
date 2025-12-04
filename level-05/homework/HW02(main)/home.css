@@ -5,10 +5,12 @@ body{
 
 nav{
   background-color: rgb(255, 255, 255);
-  width:auto;
+  width:2000px;
   height: 80px;
   display:flex;
   gap: 0px;
+  margin-top: -7px;
+  margin-left: -10px;
 }
 
 img{
