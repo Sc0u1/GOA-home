@@ -102,8 +102,6 @@ input{
 
 .container_2{
   display: flex;
-  margin-top: ;
-
 }
 .btn3{
   width: 100px;
@@ -136,3 +134,36 @@ input{
   background-color: #2b5fee;
   margin-left: 100px;
 }
+
+.container_4 {
+  width: 100%;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+
+/*
+.scroll {
+  display: flex;
+  gap: 20px;
+  animation: moveLeft 10s linear infinite;
+}
+
+.item {
+  width: 80px;
+  height: 80px;
+  background-color: aqua;
+  border-radius: 8px;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+es saswavli maq jer
+*/
