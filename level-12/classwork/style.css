@@ -1,0 +1,138 @@
+:root {
+  --main-color: #ffffff;
+  --padding-large: 20px;
+  --font-big: 1.5rem;
+  --color: white;
+  --nav:rgb(58, 45, 45);
+}
+
+body{
+  background-color: var(--main-color);
+  color: var(--color);
+}
+
+nav{
+  background-color: rgb(58, 45, 45);
+  width: 1880px;
+  height: 80px;
+  margin-top: -8px;
+  margin-left: -13px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: fixed;
+
+}
+p{
+  margin-left: 400px;
+  font-size: 20px;
+}
+.btn2{
+  color: var(--nav);
+  background-color: rgb(255, 255, 255);
+  width: 110px;
+  height: 34px;
+  border-radius: 6px;
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn{
+  width: 100px;
+  height: 30px;
+  border-radius: 12px;
+  background-color: var(--nav);
+  color: white;
+  border:none;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.btn_c{
+  margin-left: 100px;
+}
+.btn:hover {
+  background-color: rgb(95, 95, 95);
+  transform:scale(1.2);
+  transition: 0.3s;
+}
+.btn_c{
+  margin-right: 370px;
+}
+.container{
+  display: flex;
+  margin-top: 6px;
+}
+/*---nav-bar-end---*/
+.f{
+  width: 100px;
+  height: 80px;
+}
+.img1{
+ margin-left: 394px;
+}
+.img2{
+  width: 30px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 36px;
+  margin-top: 5px;
+}
+.container_2{
+  background-color: var(--nav);
+  width: 1880px;
+  height: 100px;
+  margin-top: -8px;
+  margin-left: -13px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  
+}
+
+input{
+  width: 300px;
+  height: 40px;
+  border-radius: 6px 0 0 6px;
+  border: none;
+  margin-top: 20px;
+}
+
+.container_2{
+  display: flex;
+  margin-top: ;
+
+}
+.btn3{
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 25px;
+  background-color: rgb(82, 59, 59);
+  color: white;
+  cursor: pointer;
+
+}
+.btn3:hover {
+  background-color: rgb(95, 95, 95);
+  transform:scale(1.2);
+  transition: 0.3s;
+}
+.search{
+  width: 100px;
+  height: 42px;
+  border-radius: 0 6px 6px 0;
+  margin-top: 20px;
+  background-color: #2b5fee;
+  margin-left: -10px;
+  cursor: pointer;
+}
+.container_3{
+  width: 200px;
+  height: 3000px;
+  background-color: #2b5fee;
+  margin-left: 100px;
+}
