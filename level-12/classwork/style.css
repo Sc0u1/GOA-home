@@ -128,12 +128,6 @@ input{
   margin-left: -10px;
   cursor: pointer;
 }
-.container_3{
-  width: 200px;
-  height: 3000px;
-  background-color: #2b5fee;
-  margin-left: 100px;
-}
 
 .container_4 {
   width: 100%;
@@ -142,21 +136,20 @@ input{
 }
 
 
-/*
 .scroll {
   display: flex;
   gap: 20px;
-  animation: moveLeft 10s linear infinite;
+  animation: moveRight 10s linear infinite;
 }
 
 .item {
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 200px;
   background-color: aqua;
   border-radius: 8px;
 }
 
-@keyframes moveLeft {
+@keyframes moveRight {
   0% {
     transform: translateX(100%);
   }
@@ -164,6 +157,3 @@ input{
     transform: translateX(-100%);
   }
 }
-
-es saswavli maq jer
-*/
